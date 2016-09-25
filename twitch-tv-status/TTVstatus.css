@@ -1,0 +1,63 @@
+.twitchWidget h3 {
+
+  color: #9900CC;
+
+}
+
+.twitchWidget .online-symbol {
+
+  background-image: url("./stream_on.png");
+  background-size: 100% 100%;
+
+}
+
+.twitchWidget .symbol:not(.online-symbol):not(.ofline-symbol), .twitchWidget .offline-symbol {
+
+  background-image: url("./stream_off.png");
+  background-size: 100% 100%;
+
+}
+
+.twitchWidget .symbol {
+
+  display: inline;
+  
+  font-size: 0.9em;
+  
+}
+
+.twitchWidget a {
+
+  line-height: 200%;
+
+}
+
+.twitchWidget a:link {
+
+  text-decoration: none;
+  color: #9900CC;
+
+}
+
+.twitchWidget a:visited {
+
+  text-decoration: none;
+  color: #660099;
+
+}
+
+.twitchWidget a:hover {
+
+  text-decoration: underline;
+  color: #9900CC;
+
+}
+
+.twitchWidget a:active {
+
+  text-decoration: underline;
+  font-weight: bold;
+  color: #9900CC;
+
+}
+
